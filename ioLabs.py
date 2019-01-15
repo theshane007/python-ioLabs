@@ -978,7 +978,7 @@ if __name__ == '__main__':
     
     usbbox=USBBox()
     
-    print "USBBox connected"
+    print ("USBBox connected")
     print "serial #:",usbbox.serial_num
     print "version:",usbbox.version
     print "voice version:", usbbox.voice_version
